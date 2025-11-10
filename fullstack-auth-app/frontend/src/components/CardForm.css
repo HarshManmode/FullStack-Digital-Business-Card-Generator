@@ -1,0 +1,55 @@
+.form-container {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-container h1 {
+  font-size: 2rem;
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.card-form {
+  background: white;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.card-form input:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 5px #2196f3;
+}
+
+.card-form button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-form button:hover {
+  background: #1565c0;
+}
